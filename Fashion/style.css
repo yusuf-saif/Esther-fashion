@@ -1,0 +1,46 @@
+h1{
+    color:whitesmoke;
+    /* font-family: fantasy; */
+    /* font-weight: 700; */
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+   padding: 200px; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#body h1{
+display: block;
+width: fit-content;
+font-size: 4rem;
+position: relative;
+}
+
+#body .btn{
+    display: inline-block;
+    padding: 10px 30px;
+    color:white;
+    background-color: transparent;
+    border: 2px solid rgb(185, 139, 131);
+    border-radius: 30px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin-top: 30px;
+    transition: 3s ease;
+    transition-property: background-color, color;
+    
+}
+
+#body .btn:hover{
+    color: white;
+    background-color: tomato;
+    border-radius: 10px;
+}
+
